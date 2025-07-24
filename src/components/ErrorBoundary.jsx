@@ -1,4 +1,3 @@
-// src/components/ErrorBoundary.jsx
 import React from "react";
 import "/Users/quanamg/Documents/MindX ReactJs/final/src/styles/Global.css";
 
