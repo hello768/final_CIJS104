@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
-import NavBar from "/Users/quanamg/Documents/MindX ReactJs/final/src/components/NavBar.jsx";
+import NavBar from "./components/NavBar";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 
@@ -11,8 +11,8 @@ import OrderHistory from "./pages/customer/OrderHistory";
 import AccountPage from "./pages/customer/AccountPage";
 import SupportPage from "./pages/customer/SupportPage";
 
-import CarUploadPage from "/Users/quanamg/Documents/MindX ReactJs/final/src/components/CarUploadPage.jsx";
-import CarDetailModel from "/Users/quanamg/Documents/MindX ReactJs/final/src/components/CarDetailModel.jsx";
+import CarUploadPage from "./components/CarUploadPage";
+import CarDetailModel from "./components/CarDetailModel";
 import { UserProvider } from "./contexts/UserContext";
 import ErrorBoundary from "./components/ErrorBoundary";
 
