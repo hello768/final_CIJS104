@@ -6,7 +6,7 @@ import { useUser } from "/Users/quanamg/Documents/MindX ReactJs/final/src/contex
 import CarDetailModel from "../../components/CarDetailModel.jsx";
 import axios from "axios";
 
-export default function HomePage() {
+export default function CustomerDashboard() {
   const [cars, setCars] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCar, setSelectedCar] = useState(null);
